@@ -11,12 +11,11 @@ var nichi = (function(input) {
         31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
       ];
   function set(val) {
-    /* Validate and set date obj */
+    /* Set date obj */
+    /* TODO: Validate */
     if(val instanceof Date) date = val;
-    else if(typeof val === 'string') {
-      var temp = new Date(val);
-      if(temp instanceof Date) date = temp;
-      else throw "Invalid input.";
+    else {
+      date = new Date(val);
     }
   }
   function update(base, mult) {
