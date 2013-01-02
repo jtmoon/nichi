@@ -1,0 +1,4 @@
+nichi
+=====
+
+Javascript Date Library
