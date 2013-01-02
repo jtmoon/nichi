@@ -1,7 +1,7 @@
 nichi
 =====
 
-**nichi** is a Javascript Date library that provides basic methods when interacting with dates.
+**nichi** is a Javascript Date library that provides basic methods when interacting with dates. *nichi* is the 音読み for *day* in Japanese.
 
 Features
 --------
