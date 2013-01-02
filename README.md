@@ -28,6 +28,11 @@ Methods
 * ```wk(int)```
 * ```elapsed()``` Returns string representing elapsed time (e.g. ```Just now``` ```a minute ago``` ```3 weeks ago```)
 
+To Do
+-----
+* Elapsed for months
+* Return formatted date
+
 License
 -------
 MIT License
